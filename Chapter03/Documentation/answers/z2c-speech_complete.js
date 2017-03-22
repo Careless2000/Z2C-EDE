@@ -44,7 +44,7 @@ function initPage ()
       });
 
   _stop.on("click",  function() {
-          console.log("Stopping text-to-speech service...");
+          console.log("Stopping speech-to-text service...");
           if (stream != undefined) {stream.stop(); }
           _mic.addClass("mic_enabled");
           _mic.removeClass("mic_disabled");
